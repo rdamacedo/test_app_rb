@@ -37,6 +37,9 @@ gem 'therubyracer', :platforms => :ruby
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rspec-rails', '2.0.1'
+  gem 'rspec', '2.0.1'
+  gem 'webrat', '0.7.1'
 end
 
 group :development do
